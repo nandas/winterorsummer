@@ -1,12 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-
-const App = () => {
-    return(
-        <div>
-            Winter or Summer
-        </div>
-    );
-};
+import App from './components/App'
 
 ReactDom.render(<App/>,document.getElementById('root'));
