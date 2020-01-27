@@ -1,4 +1,8 @@
 # Build a general Node.js project with npm.
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'run build'
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
